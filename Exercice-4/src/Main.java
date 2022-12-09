@@ -17,8 +17,8 @@ public class Main
     {
         for ( String prenom: prenoms )
         {
-            System.out.println(prenom +":" + prenom.length());
-
+            //System.out.println(prenom +":" + prenom.length());
+            if ( prenom.length() >= 4 ) System.out.println(prenom);
 
         }
     }
