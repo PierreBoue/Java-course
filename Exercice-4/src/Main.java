@@ -10,8 +10,8 @@ public class Main
         prenoms.add("Ahmed");
         prenoms.add("Lea");
         prenoms.add("Blanca");
-        describe(prenoms);
-
+        //describe(prenoms);
+        to_upper_case(prenoms);
     }
     private static void  describe(ArrayList<String> prenoms)
     {
@@ -21,5 +21,9 @@ public class Main
             if ( prenom.length() >= 4 ) System.out.println(prenom);
 
         }
+    }
+    private static void to_upper_case(ArrayList<String> prenoms)
+    {
+        for ( String prenom: prenoms ) System.out.println(prenom.toUpperCase());
     }
 }
