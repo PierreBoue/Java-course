@@ -4,5 +4,6 @@ public class Main
     {
        TicTacToe morpion = new TicTacToe();
        morpion.display();
+       morpion.getMoveFromPlayer();
     }
 }
